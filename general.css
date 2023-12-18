@@ -1,0 +1,126 @@
+html{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url(https://cdn.cafecito.app/gallery/eche_draw-8a8b6ff0-7a6d-11eb-9ff3-1782904641f6.gif);
+    margin:auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .img{
+    box-shadow: 0px 4px 8px #1a131f;
+    border-radius: 5%;
+    margin: 2%;
+    width: 40%;
+    height: 40%;
+  }
+  
+  .logo{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0px 4px 8px #1a131f;
+  }
+  
+  .titleText{
+    margin: auto;
+    padding: auto;
+    color: #ffa9a9;
+    text-shadow: 0px 4px 8px #1a131f;
+  }
+  .welcome{
+    margin-top: -5%;
+    margin-bottom: 5%;
+  }
+  
+  .welcomeTXT{
+    color: #ffff;
+    margin: auto;
+    text-shadow: 0px 4px 8px #1a131f;
+  }
+  #bocks{
+    background-color: #1a131fa1;
+    width: 100%;
+    margin-top: 20%;
+    display: grid;
+    text-align: center;
+  }
+  header{
+    display:flex;
+    margin: 0;
+    padding: 1%;
+    background: linear-gradient(to right, #2e2133, #2c2546);
+    color: aliceblue;
+    width: 100%;
+    height:5%;
+    position: fixed; 
+    overflow: auto; 
+    box-shadow: 0px 4px 8px #1a131f;
+    text-shadow: 0px 4px 8px #1a131f;
+  }
+  
+  header a {
+    text-align: right;
+    margin: auto;
+    display: block;
+    color: #ffff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-shadow: 0px 4px 8px #1a131f;
+  }
+  
+  header a:hover {
+    transition: all 0.2s;
+    background-color: #ffff;
+    color: #ff8f8f;
+  }
+  .infoContent a {
+    margin: auto;
+    display: block;
+    color: #ffff;
+    background-color: #b16262;
+    border-radius: 30px;
+    width: 20%;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-shadow: 0px 4px 8px #1a131f;
+  }
+  .infoContent a:hover {
+    transition: all 0.2s;
+    background-color: #ffff;
+    color: #ff8f8f;
+  }
+  .info{
+    padding: 1%;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(27, 26, 43, 0.815);
+    text-shadow: 0px 4px 8px #1a131f;
+  }
+  .infoContent{
+    margin:5%;
+    padding: 1%;
+    text-shadow: 0px 4px 8px #1a131f;
+  }
+  .infoContent p{
+    padding: 1%;
+    margin: 2%;
+    text-shadow: 0px 4px 8px #1a131f;
+  }
+  .hidden{
+    margin: 5%;
+    opacity: 0;
+    transition: all 1s;
+  }
+  .show{
+    opacity: 1;
+  }

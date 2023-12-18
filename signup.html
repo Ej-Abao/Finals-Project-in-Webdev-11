@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="login.css">
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
+    <script src="validation.js" defer></script>
+</head>
+<body>
+    
+    <div id="loginForm">
+    <div class="formcontener">
+    <img class="img" src="https://pentagram-production.imgix.net/cc7fa9e7-bf44-4438-a132-6df2b9664660/EMO_LOL_02.jpg?rect=0%2C0%2C1440%2C1512&w=640&crop=1&fm=jpg&q=70&auto=format&fit=crop&h=672"width="50%" height="50%" >
+    <h1 class="titleText">Signup</h1>
+    
+    <form action="process-signup.php" method="post" id="signup" novalidate>
+        <div class="form-group">
+            <label class="labowl" for="name">Name</label>
+            <input class="eenput" type="text" id="name" name="name">
+            <br>
+        </div>
+        
+        <div class="form-group">
+            <label class="labowl" for="email">email</label>
+            <input class="eenput" type="email" id="email" name="email">
+            <br>
+        </div>
+        
+        <div class="form-group">
+            <label class="labowl" for="password">Password</label>
+            <input class="eenput" type="password" id="password" name="password">
+            <br>
+        </div>
+        
+        <div class="form-group">
+            <label class="labowl" for="password_confirmation">Repeat password</label>
+            <input class="eenput" type="password" id="password_confirmation" name="password_confirmation">
+            <br>
+        </div>
+        
+        <button class="batown">Sign up</button>
+        <p>Already have an account? <a href="login.php">Log in Here!</a><p>
+      
+    </form>
+    </div>
+    </div>
+
+</body>
+<style>
+    a{
+    color: #ff8080;
+    padding: 10px;
+    text-decoration:underline;
+    border-radius: 5px;
+    text-shadow: 0px 4px 8px #1a131f
+    }
+    a:hover{
+    color: #fdff9b;
+    }
+  </style>
+</html>
